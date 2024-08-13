@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Tons neutros-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gainsboro">#DCDCDC</color>
+
+    <!--Tons de azul-->
+    <color name="primary_dark">#00008B</color>
+    <color name="primary">#4682B4</color>
+    <color name="accent">#B0C4DE</color>
+
+    <!--Tons de laranja-->
+    <color name="control_higlight">#FFA500</color>
+
+    <!--Tons de amarelo-->
+    <color name="gold">#FFD700</color>
+
+    <!--Tons de verde-->
+    <color name="green">#008000</color>
+
+    <!--Tons de vermelho-->
+    <color name="dark_red">#8B0000</color>
+
+    <!--Swipe Refresh Layout-->
+    <color name="refresh_progress_1">#33B5E5</color>
+    <color name="refresh_progress_2">#99CC00</color>
+    <color name="refresh_progress_3">#CC0000</color>
+</resources>

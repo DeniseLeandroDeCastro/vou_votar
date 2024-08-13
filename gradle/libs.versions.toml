@@ -1,0 +1,81 @@
+[versions]
+agp = "8.5.0"
+kotlin = "1.9.0"
+kotlinPlugin="2.0.20-Beta1"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+#Firebase
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+firebaseBom = "33.1.2"
+firebaseCrashlytics = "19.0.3"
+googleFirebaseCrashlytics = "3.0.2"
+#Hilt
+hiltAndroid = "2.50"
+#KSP
+ksp = "2.0.20-Beta1-1.0.22"
+#Circular Image
+circleimageview = "3.1.0"
+#Coroutines with Firebase
+kotlinxCoroutinesPlayServices = "1.7.3"
+#Lottie Animation
+lottie = "5.2.0"
+#Navigation Fragment
+navigationFragmentKtx = "2.7.7"
+androidxNavigationSafeargsGradlePlugin = "2.7.7"
+#Room
+roomCommon = "2.6.1"
+#Glide
+glide = "4.15.1"
+
+loadingButtonAndroid = "2.3.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+#Lottie Animation
+loading-button-android = { module = "com.github.leandroborgesferreira:loading-button-android", version.ref = "loadingButtonAndroid" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+#Coroutines
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinxCoroutinesPlayServices" }
+#Circle Image
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+#Android Navigation Fragment
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+#Navigation
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
+#Hilt
+dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+#Glide
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+#Firebase
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebaseCrashlytics" }
+#Room
+androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+dagger-hilt-android = { id = "com.google.dagger.hilt.android",  version.ref = "hiltAndroid"}
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize",  version.ref = "kotlinPlugin"}
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
+google-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "googleFirebaseCrashlytics" }
+androidx-navigation-safe-args = { id ="androidx.navigation.safeargs.kotlin",version.ref ="androidxNavigationSafeargsGradlePlugin" }
+
